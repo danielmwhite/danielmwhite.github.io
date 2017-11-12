@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Mongbang">
+  <link rel="shortcut icon" href="favicon.png">
+  <title>SellNow</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Facebook Plugin -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '1569423933105193',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v2.11'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>            
+  <section class="header">
+      <img class="logo" srcset="img/logo.png 1.5x">
+  </section>
+
+     <section class="intro">
+      <div class="container">
+        <div class="col-sm-12 ">
+          <img class="main-image-small" srcset="img/main-image.png 2x">
+        </div>
+        <div class="col-sm-6">
+          <div class="left">
+            <div class="left-inner">
+              <h1>Sell to anyone, anywhere, anytime.</h1>
+              <p>Sell to multiple platforms with the click of a button.</p>
+              <p class="body-light">752 People currently in waitlist before you</p>
+                <div class="fb-send-to-messenger" 
+                  messenger_app_id="<1569423933105193>" 
+                  page_id="850405595133814" 
+                  data-ref="<PASS_THROUGH_PARAM>" 
+                  color="<blue>" 
+                  size="<large>">
+                </div>
+              <form id="contact_form_1" action="" method="" target="_self" onsubmit="" enctype="multipart/form-data"
+              data-toggle="validator" role="form">
+                <input class="btn col-xs-6" id="submit_button" type="submit" value="Join with email"/>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="right">
+            <div class="right-inner">
+              <img class="main-image" srcset="img/main-image.png 1.5x">
+            </div>          
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>
+                    List your items with 👜 SellNow to multiple platforms at once
+                </p>
+            </div>
+            <div class="col-sm-12">
+                <center><img class="companies"  srcset="img/companies.png 2x"></center>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+  </html>
